@@ -1,0 +1,64 @@
+.contain-post {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#hero {
+  background-image: url("../assets/bannière-site.png");
+}
+
+.post_author,
+.post_author2 {
+  font-size: 18px;
+}
+
+.post_bio2,
+.post_bio {
+  font-size: 12px;
+}
+
+.post-infos,
+.post-infos2 {
+  border: 1px solid #f39000;
+  max-width: 120%;
+  position: relative;
+}
+
+.post-desc,
+.post-desc2 {
+  min-height: 150px;
+  padding: 1em;
+  min-width: 120%;
+  overflow: auto;
+}
+
+.post_publication,
+.post_publication2 {
+  margin-right: 15px;
+  width: 80%;
+}
+
+.post-infos {
+  margin: 2em 10em 2em 2em;
+  border-radius: 1em 1em 1em 0em;
+}
+
+.post-infos2 {
+  margin: 2em 2em 2em 10em;
+  border-radius: 1em 1em 0em 1em;
+}
+
+.post-user,
+.post-user2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f39000;
+  max-height: 100px;
+  min-width: 100%;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  border-radius: 1em 1em 0em 0em;
+}

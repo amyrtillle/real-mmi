@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+:root {
+  --main-bg-color: #fffbf4;
+  --dark-orange: #fc712b;
+  --orange: #fd9319;
+  --yellow: #fecd5a;
+  --light-blue: #07b1bc;
+  --dark-blue: #2b8180;
+}
+
+body {
+  background-color: var(--main-bg-color) !important;
+  font-family: Quicksand !important;
+  font-weight: 500;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  scrollbar-width: thin;
+  width: 100% !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Quicksand !important;
+  font-weight: 500;
+}
+
+h1 {
+  color: var(--dark-orange);
+  font-size: 4em;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--dark-orange);
+  font-size: 2em;
+  font-weight: 600;
+  margin: 1.5em 0;
+}
+
+main {
+  margin: 100px auto 0 auto !important;
+  width: 100%;
+  z-index: 0;
+}
+
+@media (min-width: 801px) {
+  main {
+    margin: 0 100px;
+  }
+}

@@ -1,0 +1,18 @@
+#sitemap-list {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+  width: 100%;
+}
+
+#sitemap-list li {
+  padding: 0;
+}
+
+#sitemap-list li a {
+  transition: 0.2s ease-in-out;
+}
+
+#sitemap-list > li > a:hover {
+  color: #ed7004;
+}

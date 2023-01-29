@@ -1,0 +1,116 @@
+body {
+  font-family: Quicksand, sans-serif;
+}
+
+.account-button {
+  background-color: #ee7132;
+  color: white;
+  margin: 15px auto;
+  width: 355px !important;
+}
+
+.account-button:hover {
+  background-color: #fd9319;
+}
+
+.bottom-text {
+  text-align: center;
+}
+
+.bottom-text span {
+  color: #ee7132;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+form {
+  padding: 0;
+}
+
+form i {
+  cursor: pointer;
+  display: none;
+  margin: -32px 0 auto auto !important;
+  width: fit-content !important;
+}
+
+form input,
+form textarea,
+select {
+  border: 2px solid #ee7132;
+  border-radius: 10px;
+  height: 50px;
+}
+
+form .row {
+  margin: 15px 5px 0 5px;
+}
+
+form textarea {
+  height: 317px;
+}
+
+#select-color {
+  background-color: #fd9319;
+  border-radius: 10px;
+  height: 65px;
+  margin: 6px 0 0 40px;
+  position: absolute;
+  transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  width: 110px;
+  z-index: 0;
+}
+
+#login-form {
+  display: none;
+  padding: 0 12px;
+}
+
+#login-form .col-6 {
+  margin: 50px 0;
+}
+
+select {
+  background-color: white;
+}
+
+#selection {
+  background-color: #fc712b;
+  border-radius: 15px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+}
+
+#selection div {
+  cursor: pointer;
+  display: flex;
+  padding: 10px 20px;
+  z-index: 0;
+}
+
+#selection h2 {
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+  z-index: 2;
+}
+
+@media (min-width: 600px) {
+  .bi {
+    display: block;
+  }
+
+  #select-color {
+    margin: 6px 0 0 10px;
+    height: 40px;
+    width: 185px;
+  }
+}
+
+@media (min-width: 992px) {
+  #login-form {
+    padding: 0 10em;
+  }
+}

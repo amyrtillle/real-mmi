@@ -1,0 +1,21 @@
+.accordion {
+  margin: 150px 40px 0 40px;
+}
+
+.accordion-body {
+  background-color: none !important;
+  padding-left: 50px !important;
+}
+
+.accordion-button {
+  background-color: none !important;
+  color: black !important;
+}
+
+.accordion-item {
+  border: 3px solid #ee7132 !important;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+

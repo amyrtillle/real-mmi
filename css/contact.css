@@ -1,0 +1,81 @@
+h1 {
+  color: #ee7132;
+  margin: 20px 0 50px !important;
+  text-align: center;
+}
+
+main {
+  margin-top: 100px !important;
+}
+
+.btn-primary {
+  background-color: #ee7132 !important;
+  border-color: #ee7132 !important;
+}
+
+#contact-container {
+  display: flex;
+  flex-direction: row;
+  height: 460px;
+  justify-content: center;
+}
+
+#contact-form {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 40px 50px 20px;
+}
+
+#contact-form .inputs {
+  width: 100%;
+}
+
+#contact-form .row {
+  margin: 12px 0;
+}
+
+#contact-info {
+  align-items: center;
+  background-color: #ee7132;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  padding: 50px 40px 50px 20px;
+}
+
+#contact-info a {
+  color: white;
+}
+
+#contact-info .bi {
+  color: white;
+  margin-right: 10px;
+}
+
+#contact-info > ul {
+  margin: auto;
+}
+
+#contact-info > ul > li {
+  margin: 20px 0;
+}
+
+input:not([type="radio"]),
+textarea {
+  border: none;
+  border-bottom: 2px solid;
+  border-color: #ee7132 !important;
+  border-radius: 0px !important;
+  padding: 10px;
+  width: 100%;
+}
+  
+input[type="radio"] {
+  accent-color: #ee7132;
+}
+

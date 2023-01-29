@@ -1,0 +1,36 @@
+button {
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 10px !important;
+  padding: 0.7em 1em;
+}
+
+.more {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+h3.card-title {
+  font-size: 1.2rem;
+}
+
+.card-cover {
+  margin: 50px 0;
+}
+
+.link h3 {
+  text-align: center;
+  color: black;
+}
+
+.dev-img {
+  margin: 0;
+  height: 200%;
+  aspect-ratio: 16/9;
+}
+
+.intro {
+  height: 300px;
+}
+

@@ -1,0 +1,48 @@
+h2 {
+  text-align: center;
+}
+
+section {
+  margin: 50px 20px;
+}
+
+.button,
+.portfolio-info button {
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 10px !important;
+  padding: 0.7em 1em;
+}
+
+.intro img {
+  margin-top: 50px;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.portfolio-info {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-wrap h4 {
+  text-align: center;
+}
+
+.portfolio-wrap img {
+  width: 100%;
+  aspect-ratio: 16/10;
+}
+
+.text-center {
+  margin: 20px 0;
+}
+
+#presentation-section img {
+  width: 100%;
+  aspect-ratio: 9/10;
+}
+
+#presentation-section {
+  text-align: center;
+}
